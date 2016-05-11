@@ -3,3 +3,11 @@ rvm:
   - 2.2
 before_install:
   - gem install bundler
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: "EL0uiX/4tAr9Gvv6CtOE1mbrk6ee4lkcPRRpDes/+PekbvyOE3BXBvfBY9sx6bD8YW4gapF3t/LmwkCZOVOm/jeQohQ4a9Im2Y3EJyV42UCkLzUsPnjqAwV47+ADAJZIjtPaCbgLf0l90RdIp9/mf+AOIsfmrOw8aLiNNxRgy0NbVydNy47mV8VO6rLgVjyvYKGz9XOM+a225d1CZ9HL4bktbnzENQPRehr3ixjJT37bUAhVjv6WWyy5KyuzXM3fCB7MbBFI4cTpWIcnwa9wJ1lnSrIuPqbVcXcZmrgnxbfYxypb01CE4GyBU8GhdwbLKyzjK+EfPuqchhkLrNSfzJxRcOOackuoYP36SjbECKLrJ/O3I3U5ByJTgV7GR+Gm6f8M4xTUkQrqppMuF//cqWgwFcnxFj3dpVz2TKbnXec182+cOZ9cupiRgxsLNn/LlbAUgMxD8wU3Ro188YjEwUjvlLTLvzLV2O0vQSyim0V3D0q/ULs3GW6OJeXcd0JPcRcD7U73We8vKnvdmf1FCzHttO9l992J9Zvsqess9qCJQNPRqsHTKYqzwbq/AbdTCSL12wK40kT6kutMPvyoMl3S8MVZpSWQFDfst8SXBVMm+zT1932YumdH2cUMpEIC5znuUdFzYnZ/KgLnvrPRfIkGYUSJACzjwVBb73HEYsc="
+
+  app: sheltered-beach-99276
+
