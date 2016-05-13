@@ -1,0 +1,2 @@
+module InstagramApiHelper
+end

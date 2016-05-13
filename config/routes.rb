@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'welcome#index'
 
+  post 'instagram/tag/buscar' => 'instagram_api#imageGet'
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
