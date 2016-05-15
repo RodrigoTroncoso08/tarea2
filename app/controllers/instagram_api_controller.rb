@@ -4,8 +4,13 @@ skip_before_filter  :verify_authenticity_token
 require 'httparty'
 
 	def imageGet
-		tag = params.require(:tag)
-		token = params.require(:access_token)
+
+		
+
+		tag = params[:tag]
+		token = params[:access_token]
+
+	
 		#query = {"access_token" => token , "count"=>"20"}
 		#response = HTTParty.get("https://api.instagram.com/v1/tags/"+tag+"/media/recent",:query=>query)
 		version = 1
