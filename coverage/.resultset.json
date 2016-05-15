@@ -1,0 +1,27 @@
+{
+  "Unit Tests": {
+    "coverage": {
+      "/home/rodrigo/Documents/TallerIntegracion/tarea2/tarea2/test/controllers/instagram_api_controller_test.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        1,
+        0,
+        0,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1463351805
+  }
+}
